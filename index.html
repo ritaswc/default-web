@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<meta charset="UTF-8">
+<title>CSS3卡通城市动画场景</title>
+
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+  a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+}
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+    text-decoration: none;
+}
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+    text-decoration: none;
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="container">
+
+  <h1><a style="color:#71728F" href="https://beian.miit.gov.cn/" target="_blank">苏ICP备17004025号-5</a></h1>
+  <div class="scene">
+    <div class="cloud-container">
+      <div class="sun">
+        <div class="cloud" id="cloud-sun"></div>
+        <div class="moon"></div>
+      </div>
+      <div class="cloud" id="cloud-1"></div>
+      <div class="cloud" id="cloud-2"></div>
+      <div class="cloud" id="cloud-3"></div>
+      <div class="cloud" id="cloud-4"></div>
+      <div class="cloud" id="cloud-5"></div>
+    </div>
+
+    <div class="skyscrapers">
+      <div class="skyscraper-1"></div>
+      <div class="skyscraper-2"></div>
+      <div class="skyscraper-3"></div>
+      <div class="skyscraper-4"></div>
+      <div class="skyscraper-5"></div>
+      <div class="skyscraper-6"></div>
+    </div>
+
+    <div class="houses">
+      <div class="house-1">
+        <div class="house-1-windows">
+          <div class="house-windows-row">
+            <div class="window house-1-window"></div>
+            <div class="window house-1-window"></div>
+          </div>
+          <div class="house-windows-row">
+            <div class="window house-1-window"></div>
+            <div class="window house-1-window"></div>
+          </div>
+          <div class="house-windows-row">
+            <div class="door house-1-door"></div>
+            <div class="window house-1-window"></div>
+          </div>
+        </div>
+      </div>
+      <div class="house-2">
+        <div class="tank">
+          <div class="tank-details"></div>
+        </div>
+        <div class="house-2-sign"></div>
+        <div class="house-2-windows">
+          <div class="house-windows-row">
+            <div class="window house-2-window"></div>
+            <div class="window house-2-window"></div>
+            <div class="window house-2-window"></div>
+          </div>
+          <div class="house-windows-row">
+            <div class="window house-2-window"></div>
+            <div class="window house-2-window"></div>
+            <div class="window house-2-window"></div>
+          </div>
+          <div class="house-windows-row">
+            <div class="door house-2-door"></div>
+            <div class="window house-2-window"></div>
+            <div class="window house-2-window"></div>
+          </div>
+        </div>
+
+        <div class="house-2-rack"></div>
+
+      </div>
+      <div class="house-3-container">
+        <div class="house-3">
+          <div class="house-3-chimney">
+            <div class="smoke">
+              <span class="s0"></span>
+              <span class="s1"></span>
+              <span class="s2"></span>
+              <span class="s3"></span>
+              <span class="s4"></span>
+              <span class="s5"></span>
+              <span class="s6"></span>
+              <span class="s7"></span>
+              <span class="s8"></span>
+              <span class="s9"></span>
+            </div>
+          </div>
+          <div class="house-3-roof-window window">
+            <div class="house-3-window-shades"></div>
+          </div>
+          <div class="house-3-windows">
+            <div class="house-windows-row">
+              <div class="window house-3-window">
+                <div class="house-3-window-shades"></div>
+
+              </div>
+              <div class="window house-3-window">
+                <div class="house-3-window-shades" id="shade-2"></div>
+              </div>
+            </div>
+            <div class="house-windows-row">
+              <div class="window house-3-window">
+                <div class="house-3-window-shades" id="shade-3"></div>
+
+              </div>
+              <div class="door house-3-door"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="house-4">
+        <div class="house-4-window-circle"></div>
+        <div class="house-4-windows">
+          <div class="house-windows-row">
+            <div class="window house-4-window">
+              <div class="house-4-window-frame"></div>
+            </div>
+          </div>
+        </div>
+        <div class="door house-4-door">
+          <div class="house-4-door-stairs">
+            <div class="house-4-door-rail">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="house-5">
+        <div class="house-5-roof">
+          <div class="tank">
+            <div class="tank-details"></div>
+          </div>
+        </div>
+
+        <div class="house-5-windows">
+          <div class="house-windows-row top-row">
+            <div class="window house-5-window">
+            </div>
+            <div class="window house-5-window">
+            </div>
+            <div class="window house-5-window">
+
+            </div>
+            <div class="antenna"></div>
+          </div>
+          <div class="house-windows-row">
+            <div class="window house-5-window">
+            </div>
+            <div class="window house-5-window">
+            </div>
+            <div class="window house-5-window">
+            </div>
+          </div>
+          <div class="house-windows-row">
+            <div class="window house-5-window">
+            </div>
+            <div class="door house-5-door"></div>
+            <div class="window house-5-window">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="tree-container" id="tree-1">
+      <div class="tree">
+        <div class="leaf" id="leaf-1"></div>
+        <div class="leaf" id="leaf-2"></div>
+        <div class="leaf" id="leaf-3"></div>
+      </div>
+
+      <div class="tree-base"></div>
+    </div>
+    <div class="streetlamp" id="streetlamp-1">
+      <div class="streetlamp-glow"></div>
+    </div>
+    <div class="streetlamp" id="streetlamp-2">
+      <div class="streetlamp-glow"></div>
+    </div>
+
+    <div class="tree-container" id="tree-2">
+      <div class="tree">
+        <div class="bird bird-1"></div>
+        <div class="bird bird-2"></div>
+      </div>
+      <div class="tree-base"></div>
+    </div>
+
+    <div class="bike-container">
+
+      <div class="bike-frame"><span></span></div>
+
+      <div class="bike-wheel" id="wheel-1"><span></span></div>
+      <div class="bike-wheel" id="wheel-2"><span></span></div>
+
+    </div>
+
+    <div class="mailtruck">
+
+      <div class="mailtruck-letter">
+        <div class='letter'></div>
+      </div>
+
+      <div class="mailtruck-wheels"></div>
+      <div class="mailtruck-details">
+        <span></span>
+      </div>
+
+    </div>
+
+    <div class="rain">
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+      <div class="drops-container">
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+        <div class="drop"></div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script src='js/jquery.min.js'></script>
+<script src="js/index.js"></script>
+<div style="display: none;"><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1277886294&web_id=1277886294"></script></div>
+</div>
+</body>
+</html>
