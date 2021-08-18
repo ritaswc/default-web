@@ -2,4 +2,4 @@
 
 参考下图
 
-![示例]](https://github.com/ritaswc/default-web/raw/main/readme.md)
+![示例](https://github.com/ritaswc/default-web/raw/main/readme.md)
